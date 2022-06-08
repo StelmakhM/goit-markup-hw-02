@@ -1,0 +1,252 @@
+:root {
+    --black: #212121;
+    --very-black: #000000;
+    --gray: #757575;
+    --blue: #2196F3;
+    --white: #ffffff;
+    --font-bold: 700;
+
+
+}
+
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+}
+
+
+
+
+
+/* Header */
+
+
+.nav-logo {
+    font-family: 'Raleway';
+    font-weight: var(--font-bold);
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--very-black);
+    text-decoration: none;
+}
+
+.logo-span {
+    color: var(--blue);
+}
+
+
+.nav-list {
+    list-style-type: none;
+}
+
+.nav-link {
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--black);
+    text-decoration: none;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--blue);
+}
+
+.nav-contact {
+    font-weight: 500;
+    line-height: 1.14;
+    color: var(--gray);
+    text-decoration: none;
+}
+
+.nav-contact:hover,
+.nav-contact:focus {
+    color: #463c3c
+}
+
+
+/* Main index.html */
+
+.hero {
+    background: #2F303A;
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--white);
+}
+
+.hero-btn {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--white);
+    background-color: var(--blue);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: #076cbf;
+}
+
+.features-title {
+    display: none;
+}
+
+.features-list {
+    list-style-type: none;
+}
+
+.features-subtitle {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--black);
+}
+
+.features-text {
+    line-height: 1.71px;
+    letter-spacing: 0.03em;
+    color: var(--gray);
+}
+
+.work-title,
+.team-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--black);
+}
+
+.work-list,
+.team-list {
+    list-style-type: none;
+}
+
+.team-subtitle {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.18px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--black);
+}
+
+.team-text {
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--gray);
+}
+
+
+
+
+
+/* Main portfolio.htlm*/
+.hidden-item {
+    display: none;
+}
+
+.main-list-filter {
+    list-style-type: none;
+}
+
+.btn {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625;
+    text-align: center;
+    color: var(--black);
+    background: #F5F4FA;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+    color: var(--white);
+    background: var(--blue);
+}
+
+.main-list-projects {
+    list-style-type: none;
+}
+
+.main-project-title {
+    font-size: 18px;
+    font-weight: var(--font-bold);
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--black);
+}
+
+.main-project-description {
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.03em;
+    color: var(--gray);
+}
+
+
+/* Footer */
+
+
+.footer {
+    background-color: #2F303A;
+}
+
+.footer-logo {
+    font-family: 'Raleway';
+    font-weight: var(--font-bold);
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--white);
+    text-decoration: none;
+}
+
+.footer-list {
+    list-style-type: none;
+}
+
+.footer-adress {
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--white);
+    text-decoration: none;
+}
+
+.footer-contact {
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-contact:hover,
+.footer-contact:focus {
+    color: rgba(255, 255, 255, 1);
+    ;
+}
