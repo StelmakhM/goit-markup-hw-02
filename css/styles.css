@@ -1,3 +1,11 @@
+:root {
+    --main-color: #212121;
+    --accessory-color: #FFFFFF;
+    --hover-color: #2196F3;
+    --contacts-color: #757575;
+    --background-color: #2F303A;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
@@ -8,6 +16,7 @@ body {
 
 
 /* Header */
+
 
 .logo {
     font-family: 'Raleway';
@@ -21,7 +30,7 @@ body {
 }
 
 .logo-span {
-    color: #2196F3;
+    color: var(--hover-color)
 }
 
 .navigation-list {
@@ -31,14 +40,14 @@ body {
 .navigation-item {
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #212121;
+    color: var(--main-color);
     text-decoration: none;
 }
 
 .navigation-contact {
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #757575;
+    color: var(--contacts-color);
     text-decoration: none;
 }
 
@@ -46,15 +55,14 @@ body {
 .navigation-contact:hover,
 .navigation-item:focus,
 .navigation-item:hover {
-    color: #2196F3;
-    outline: none;
+    color: var(--hover-color)
 }
 
 
 /* Main index.html */
 
 .hero {
-    background-color: #2F303A;
+    background-color: var(--background-color)
 }
 
 .hero-title {
@@ -64,7 +72,7 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: var(--accessory-color);
 }
 
 .hero-button {
@@ -74,21 +82,19 @@ body {
     line-height: 1.87;
     text-align: center;
     letter-spacing: 0.06em;
-    color: #FFFFFF;
+    color: var(--accessory-color);
     width: 216px;
     height: 50px;
-    background-color: #2196F3;
+    background-color: var(--hover-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     cursor: pointer;
-
 }
 
 .hero-button:hover,
 .hero-button:focus {
     background-color: #188CE8;
     outline: none;
-
 }
 
 .features-list {
@@ -100,14 +106,14 @@ body {
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #212121;
+    color: var(--main-color);
 }
 
 .features-text {
     font-weight: 400;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--contacts-color);
 }
 
 .about-title {
@@ -116,7 +122,7 @@ body {
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--main-color)
 }
 
 .about-list {
@@ -133,7 +139,7 @@ body {
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--main-color);
 }
 
 .member-name {
@@ -141,7 +147,7 @@ body {
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--main-color);
 }
 
 .member-job {
@@ -149,13 +155,15 @@ body {
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--contacts-color);
 }
 
 
 /* Footer */
+
+
 .page-footer {
-    background-color: #2F303A;
+    background-color: var(--background-color);
 }
 
 .footer-logo {
@@ -164,7 +172,7 @@ body {
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: var(--accessory-color);
     text-decoration: none;
 }
 
@@ -177,7 +185,7 @@ body {
     font-weight: 400;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: var(--accessory-color);
     text-decoration: none;
 }
 
@@ -193,7 +201,5 @@ body {
 
 .footer-contacts:focus,
 .footer-contacts:hover {
-    outline: none;
-    color: #2196F3;
-
+    color: var(--hover-color);
 }
