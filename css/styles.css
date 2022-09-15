@@ -5,6 +5,8 @@
     --buttons-hover-color: #188CE8;
     --contacts-color: #757575;
     --background-color: #2F303A;
+    --logo-color: #000000;
+    --contacts-color: rgba(255, 255, 255, 0.6);
 
 }
 
@@ -25,7 +27,7 @@ body {
     font-size: 26px;
     line-height: 1.2;
     letter-spacing: 0.03em;
-    color: #000000;
+    color: var(--logo-color);
     text-decoration: none;
     outline: none;
 }
@@ -241,7 +243,7 @@ body {
     font-weight: 400;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--contacts-color);
     text-decoration: none;
 }
 
